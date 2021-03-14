@@ -1,0 +1,43 @@
+@import './bootstrap.min.css';
+
+
+.green-bg{
+  background-color: #8DC854;
+}
+.page-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.filler{
+  flex: 1;
+}
+.page-wrapper ul{
+  padding-left: 0;
+}
+.fs-20{
+  font-size: 20px;
+}
+.fs-24{
+  font-size: 24px;
+}
+.form-box{
+  border: 1px solid #f4ffe9;
+  padding: 40px 30px;
+  box-shadow: 0 15px 50px rgb(0, 0, 0, 0.08);
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+/*
+.form-box button{
+  background-color: #8DC854;
+  box-shadow: none !important;
+  color: #fff !important;
+}
+*/
+
+.footer a{
+  color: #414141;
+}
