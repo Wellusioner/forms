@@ -27,7 +27,7 @@
       <div class="form-block">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 offset-md-3">
+            <div class="col-lg-6 offset-lg-3 col-md-10 offset-md-1">
               <div class="text-center pt-2">
                 <a href="#!"><img src="./images/support.jpg" alt=""></a>
               </div>
@@ -35,8 +35,32 @@
                 <form>
                   <h1 class="fs-20">Connect your Account!</h1>
                   <div>
-                    <p>Dies ist eine Testumgebung, bitte benutzen Sie keine Produktionsdaten.</p>
-                    <p>Nach 30 Tagen werden alle Daten gelöscht.</p>
+                    <p>Dies ist die Produktionsumgebung, sie kann 2 Monate lang kostenlos genutzt werden.</p>
+                    <p>Nach 2 Monaten werden die im Apaleo Store angegebenen Preise verrechnet.</p>
+                  </div>
+                  <div class="form-group row">
+                    <label for="name" class="col-sm-4 col-form-label">Vorname:</label>
+                    <div class="col-sm-8">
+                      <input type="text" class="form-control" id="name" name="name">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="lastname" class="col-sm-4 col-form-label">Nachname:</label>
+                    <div class="col-sm-8">
+                      <input type="text" class="form-control" id="lastname" name="lastname">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="email" class="col-sm-4 col-form-label">E-mail Adresse:</label>
+                    <div class="col-sm-8">
+                      <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="custom-control custom-checkbox mb-3">
+                      <input type="checkbox" class="custom-control-input " id="checkbox1" required>
+                      <label class="custom-control-label" for="checkbox1">Ich akzeptiere die Verarbeitung der hier angegebenen Daten. <a target="_blank" href="#!">Mehr Erfahren</a>.</label>
+                    </div>
                   </div>
                   <div class="form-group mb-5">
                     <div class="custom-control custom-checkbox mb-3">
